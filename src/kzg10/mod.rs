@@ -270,7 +270,7 @@ where
     }
 
     /// On input a polynomial `p` and a point `point`, outputs a proof for the same.
-    pub(crate) fn open<'a>(
+    pub fn open<'a>(
         powers: &Powers<E>,
         p: &P,
         point: P::Point,
